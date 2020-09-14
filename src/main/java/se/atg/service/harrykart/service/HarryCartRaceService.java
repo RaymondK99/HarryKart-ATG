@@ -36,8 +36,8 @@ public class HarryCartRaceService {
 
     /**
      * Calculate positions according to each participants base speeds and power ups.
-     * Use BigInteger and BigDecimals here in order no to loose precision this input data
-     * comes in that format.
+     * Use BigInteger and BigDecimal here in order not to loose precision since the input data
+     * comes in BigInteger format.
      *
      * @param harryKartRace
      * @return
